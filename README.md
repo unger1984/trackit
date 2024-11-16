@@ -4,7 +4,9 @@
     <img src="./logo.svg">
 </p>
 
-!!! UNDER CONSTRUCTION !!!
+❗️❗️❗️ **UNDER CONSTRUCTION** ❗️❗️❗️
+
+This packages not published in pub.dev!
 
 Trackit is a modular lightweight logger for Dart and Flutter applications. To achieve the functionality you need, you<br> 
 can use ready-made modules described below, or write similar modules manually.
