@@ -1,5 +1,5 @@
-name: trackit_print
-description: Trackit logger extension for formatting and outputting logs to the console
+name: trackit_color
+description: Trackit logger extension for color formatting logs to the console.
 version: 0.0.1
 repository: https://github.com/unger1984/trackit
 

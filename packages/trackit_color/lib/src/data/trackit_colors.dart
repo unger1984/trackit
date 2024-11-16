@@ -1,5 +1,5 @@
 import 'package:ansicolor/ansicolor.dart';
-import 'package:trackit_print/trackit_print.dart';
+import 'package:trackit_color/trackit_color.dart';
 
 /// Type of colors used in the trackit_print package.
 typedef TrackitColors = Map<LogLevel, AnsiPen?>;

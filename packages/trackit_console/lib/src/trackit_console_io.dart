@@ -1,6 +1,4 @@
-import 'dart:html';
-
-import 'package:trackit_print/trackit_print.dart';
+import 'package:trackit_console/trackit_console.dart';
 
 /// Print log to console
 class TrackitConsole extends TrackitObserver {
@@ -8,6 +6,6 @@ class TrackitConsole extends TrackitObserver {
   void log(LogData data, dynamic formatted) {
     (formatted?.toString() ?? data.message?.toString())
         ?.split('\n')
-        .forEach(window.console.log);
+        .forEach(print);
   }
 }

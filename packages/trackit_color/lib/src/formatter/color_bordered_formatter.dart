@@ -1,4 +1,4 @@
-import 'package:trackit_print/trackit_print.dart';
+import 'package:trackit_color/trackit_color.dart';
 
 class ColorBorderedFormatter extends ColorFormatter {
   final int _borderWidth;

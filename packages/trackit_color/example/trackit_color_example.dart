@@ -1,4 +1,13 @@
-import 'package:trackit_print/trackit_print.dart';
+import 'package:trackit_color/trackit_color.dart';
+
+/// For print log in console.
+/// Last observer in chain.
+class PrintLogObserver extends TrackitObserver {
+  @override
+  void log(LogData data, dynamic formatted) {
+    (formatted?.toString() ?? '').split('\n').forEach(print);
+  }
+}
 
 void main() {
   final log = Trackit.create('Test');
@@ -11,7 +20,7 @@ void main() {
       ),
       observers: [
         ColorFormatter(
-          observers: [TrackitConsole()],
+          observers: [PrintLogObserver()],
         ),
       ],
     ),
@@ -27,12 +36,12 @@ void main() {
       ),
       observers: [
         ColorBorderedFormatter(
-          observers: [TrackitConsole()],
+          observers: [PrintLogObserver()],
         ),
       ],
     ),
   );
-  log.info('Hello World!');
+  log.debug('Hello World!');
   Trackit.getInstance().clear();
 
   /// Coloring without cornered borders
@@ -44,10 +53,10 @@ void main() {
       observers: [
         ColorBorderedFormatter(
           withCorners: false,
-          observers: [TrackitConsole()],
+          observers: [PrintLogObserver()],
         ),
       ],
     ),
   );
-  log.info('Hello World!');
+  log.warning('Hello World!');
 }

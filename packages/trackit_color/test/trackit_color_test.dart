@@ -1,5 +1,5 @@
 import 'package:test/test.dart';
-import 'package:trackit_print/trackit_print.dart';
+import 'package:trackit_color/trackit_color.dart';
 
 class TestObserver extends TrackitObserver {
   String? lastMessage;
@@ -13,7 +13,7 @@ class TestObserver extends TrackitObserver {
 }
 
 void main() {
-  group('Test Trackit Print', () {
+  group('Test Trackit Color', () {
     tearDown(() {
       Trackit.getInstance().clear();
     });
@@ -27,7 +27,7 @@ void main() {
       expect(found.lastFormatted, '\x1B[38;5;2mtest message\x1B[0m');
     });
 
-    test('ColorFormatter', () {
+    test('ColorBorderedFormatter', () {
       final log = Trackit.create('test1');
       Trackit.getInstance().add(ColorBorderedFormatter(
         borderWidth: 1,

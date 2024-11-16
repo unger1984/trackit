@@ -1,0 +1,21 @@
+name: trackit_console
+description: Trackit logger extension and outputting logs to the console. Use this with Dart applications.
+version: 0.0.1
+repository: https://github.com/unger1984/trackit
+
+topics:
+  - logger
+  - logging
+  - log
+  - console
+  - cli
+
+environment:
+  sdk: ">2.19.0 <3.6.0"
+
+dependencies:
+  trackit: ^0.0.1
+
+dev_dependencies:
+  lints: ^5.0.0
+  test: ^1.25.8

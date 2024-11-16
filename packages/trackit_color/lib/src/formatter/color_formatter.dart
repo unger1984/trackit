@@ -1,5 +1,5 @@
 import 'package:ansicolor/ansicolor.dart';
-import 'package:trackit_print/trackit_print.dart';
+import 'package:trackit_color/trackit_color.dart';
 
 class ColorFormatter extends TrackitFormatter {
   final TrackitColors _colors;
