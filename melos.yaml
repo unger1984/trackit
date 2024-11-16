@@ -1,0 +1,19 @@
+name: trackit
+repository: https://github.com/unger1984/trackit
+
+sdkPath: .fvm/flutter_sdk
+
+packages:
+ - packages/*
+
+command:
+ version:
+  # Only allow versioning to happen on main branch.
+  branch: main
+
+ scripts:
+  lint:all:
+   steps:
+    - analyze
+    - format
+   description: Run all static analysis checks.
