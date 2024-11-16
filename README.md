@@ -1,5 +1,5 @@
 <p align="center">
-❗️❗️❗️ **UNDER CONSTRUCTION** ❗️❗️❗️
+❗️❗️❗️ <b>UNDER CONSTRUCTION</b> ❗️❗️❗️
 </p>
 <p align="center">
 You can use it at your own risk. The project is in developer version 0.0.x
