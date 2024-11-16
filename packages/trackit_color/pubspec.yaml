@@ -1,6 +1,6 @@
 name: trackit_color
 description: Trackit logger extension for color formatting logs to the console.
-version: 0.0.1
+version: 0.0.1+1
 repository: https://github.com/unger1984/trackit
 
 topics:
@@ -15,7 +15,7 @@ environment:
 
 dependencies:
   ansicolor: ^2.0.3
-  trackit: ^0.0.1
+  trackit: ^0.0.1+1
 
 dev_dependencies:
   lints: ^5.0.0

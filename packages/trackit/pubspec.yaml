@@ -1,6 +1,6 @@
 name: trackit
 description: Very simple, lightweight and modular logging system. Trackit is a logger that is expandable with additional modules.
-version: 0.0.1
+version: 0.0.1+1
 repository: https://github.com/unger1984/trackit
 
 topics:
