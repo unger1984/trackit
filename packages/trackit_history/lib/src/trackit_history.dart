@@ -11,7 +11,12 @@ class TrackitHistory extends TrackitObserver {
   TrackitHistory({int maxSize = 1000}) : _maxSize = maxSize;
 
   /// Get the history list
-  TrackitHistoryList get list => _list;
+  TrackitHistoryList get list => List.unmodifiable(_list);
+
+  /// Clear the history list
+  void clear() {
+    _list.clear();
+  }
 
   @override
   void log(LogData data, dynamic formatted) {

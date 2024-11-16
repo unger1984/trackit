@@ -46,5 +46,5 @@ abstract class TrackitObserver {
   }
 
   /// Getter for observer list
-  List<TrackitObserver> get observers => _observers;
+  List<TrackitObserver> get observers => List.unmodifiable(_observers);
 }

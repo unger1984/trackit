@@ -18,7 +18,7 @@ void main() {
       Trackit.getInstance().clear();
     });
 
-    test('DefaultStringFormatter', () {
+    test('should DefaultStringFormatter work', () {
       Trackit.getInstance()
           .add(DefaultStringFormatter(observers: [TestObserver()]));
       final log = Trackit.create('test10');
@@ -28,7 +28,7 @@ void main() {
       expect(found.lastFormatted, '[INFO] (test10) test message');
     });
 
-    test('DefaultMapFormatter', () {
+    test('should DefaultMapFormatter work', () {
       Trackit.getInstance()
           .add(DefaultMapFormatter(observers: [TestObserver()]));
       final log = Trackit.create('test10');

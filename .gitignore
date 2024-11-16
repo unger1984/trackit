@@ -46,3 +46,6 @@ app.*.map.json
 # https://dart.dev/guides/libraries/private-files#pubspeclock.
 pubspec.lock
 pubspec_overrides.yaml
+
+coverage/
+build/

@@ -1,14 +1,84 @@
 import 'package:test/test.dart';
 import 'package:trackit/trackit.dart';
 
+class TestObserver extends TrackitObserver {}
+
 void main() {
+  group('Trackit', () {
+    tearDown(() {
+      Trackit.getInstance().clear();
+    });
+
+    test('should log data', () {
+      final trackit = Trackit.getInstance();
+      expectLater(
+        trackit.stream,
+        emitsInOrder([
+          predicate<LogData>((data) {
+            expect(data.message == 'test', true);
+            expect(data.level == LogLevel.debug, true);
+            expect(data.title == 'test', true);
+            return true;
+          }),
+        ]),
+      );
+      trackit.log('test', 'test');
+    });
+
+    test('should add observer', () {
+      final trackit = Trackit.getInstance();
+      final observer = TestObserver();
+      trackit.add(observer);
+      expect(trackit.observers, contains(observer));
+    });
+
+    test('should return list of observers by type', () {
+      final trackit = Trackit.getInstance();
+      final observer1 = TestObserver();
+      final observer2 = TestObserver();
+      trackit.add(observer1);
+      trackit.add(observer2);
+      expect(
+        trackit.whereType<TestObserver>(),
+        containsAll([observer1, observer2]),
+      );
+    });
+
+    test('should return first observer by type', () {
+      final trackit = Trackit.getInstance();
+      final observer1 = TestObserver();
+      final observer2 = TestObserver();
+      trackit.add(observer1);
+      trackit.add(observer2);
+      expect(trackit.firstWhereType<TestObserver>(), observer1);
+    });
+
+    test('should remove observer by type', () {
+      final trackit = Trackit.getInstance();
+      final observer = TestObserver();
+      trackit.add(observer);
+      trackit.remove<TrackitObserver>();
+      expect(trackit.observers, isEmpty);
+    });
+
+    test('should clear all observers', () {
+      final trackit = Trackit.getInstance();
+      final observer1 = TestObserver();
+      final observer2 = TestObserver();
+      trackit.add(observer1);
+      trackit.add(observer2);
+      trackit.clear();
+      expect(trackit.observers, isEmpty);
+    });
+  });
+
   group('Base logger tests', () {
-    test('Instance title', () {
+    test('should create instance with title', () {
       final log = Trackit.create('test');
       expect(log.title == 'test', true);
     });
 
-    test('Verbose LogData', () {
+    test('should log verbose message', () {
       final log = Trackit.create('test1');
       expectLater(
           Trackit.getInstance().stream,
@@ -23,7 +93,7 @@ void main() {
       log.verbose('test message');
     });
 
-    test('Debug LogData', () {
+    test('should log debug message', () {
       final log = Trackit.create('test2');
       expectLater(
           Trackit.getInstance().stream,
@@ -38,7 +108,7 @@ void main() {
       log.debug('test message');
     });
 
-    test('Info LogData', () {
+    test('should log info message', () {
       final log = Trackit.create('test3');
       expectLater(
           Trackit.getInstance().stream,
@@ -53,7 +123,7 @@ void main() {
       log.info('test message');
     });
 
-    test('Warning LogData', () {
+    test('should log warning message', () {
       final log = Trackit.create('test4');
       expectLater(
           Trackit.getInstance().stream,
@@ -68,7 +138,7 @@ void main() {
       log.warning('test message');
     });
 
-    test('Error LogData', () {
+    test('should log error message', () {
       final log = Trackit.create('test5');
       expectLater(
           Trackit.getInstance().stream,
@@ -83,7 +153,7 @@ void main() {
       log.error('test message');
     });
 
-    test('Fatal LogData', () {
+    test('should log fatal message', () {
       final log = Trackit.create('test6');
       expectLater(
           Trackit.getInstance().stream,

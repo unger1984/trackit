@@ -105,4 +105,10 @@ class Trackit {
   /// !!! Not recommended to use this method !!!
   /// Instead use [add] and [remove]
   Stream<LogData> get stream => _streamController.stream.asBroadcastStream();
+
+  /// Get list of observers
+  /// !!! Not recommended to use this method !!!
+  /// Instead use [whereType] and [firstWhereType]
+  Map<TrackitObserver, StreamSubscription<LogData>> get observers =>
+      Map.unmodifiable(_observers);
 }

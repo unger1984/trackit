@@ -7,7 +7,7 @@ void main() {
       Trackit.getInstance().clear();
     });
 
-    test('TrackitHistory', () {
+    test('should TrackitHistory work', () {
       final log = Trackit.create('test1');
       Trackit.getInstance().add(TrackitHistory());
       log.info('First message');

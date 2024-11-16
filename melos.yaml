@@ -7,13 +7,18 @@ packages:
  - packages/*
 
 command:
+ bootstrap:
+  usePubspecOverrides: true
  version:
   # Only allow versioning to happen on main branch.
   branch: main
 
- scripts:
-  lint:all:
-   steps:
-    - analyze
-    - format
-   description: Run all static analysis checks.
+scripts:
+ lint:all:
+  steps:
+   - analyze
+   - format
+  description: Run all static analysis checks.
+ test:
+  run: dart run melos exec --dir-exists=test -- "flutter test --coverage"
+  description: Run tests for all packages

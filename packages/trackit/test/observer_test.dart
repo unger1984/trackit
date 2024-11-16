@@ -41,7 +41,7 @@ void main() {
       Trackit.getInstance().clear();
     });
 
-    test('Observer add get remove', () {
+    test('should observer add get remove', () {
       Trackit.getInstance().add(TestObserver());
       var found = Trackit.getInstance().firstWhereType<TestObserver>();
       expect(found == null, false);
@@ -51,7 +51,7 @@ void main() {
       expect(found == null, true);
     });
 
-    test('Observer handler', () {
+    test('should observer handler', () {
       Trackit.getInstance().add(TestObserver());
       final log = Trackit.create('test7');
       log.info('test message');
@@ -62,7 +62,7 @@ void main() {
       );
     });
 
-    test('Observer filter', () {
+    test('should observer filter', () {
       Trackit.getInstance().add(TestFilter(observers: [TestObserver()]));
       final log = Trackit.create('test8');
       log.info('test message');
@@ -81,7 +81,7 @@ void main() {
       );
     });
 
-    test('Observer formatter', () {
+    test('should observer formatter', () {
       Trackit.getInstance().add(TestFormatter(observers: [TestObserver()]));
       final log = Trackit.create('test9');
       log.info('test message');

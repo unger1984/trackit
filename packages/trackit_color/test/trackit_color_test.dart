@@ -18,7 +18,7 @@ void main() {
       Trackit.getInstance().clear();
     });
 
-    test('ColorFormatter', () {
+    test('should ColorFormatter work', () {
       final log = Trackit.create('test1');
       Trackit.getInstance().add(ColorFormatter(observers: [TestObserver()]));
       log.info('test message');
@@ -27,7 +27,7 @@ void main() {
       expect(found.lastFormatted, '\x1B[38;5;2mtest message\x1B[0m');
     });
 
-    test('ColorBorderedFormatter', () {
+    test('should ColorBorderedFormatter work', () {
       final log = Trackit.create('test1');
       Trackit.getInstance().add(ColorBorderedFormatter(
         borderWidth: 1,
