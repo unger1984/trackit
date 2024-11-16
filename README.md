@@ -1,5 +1,7 @@
 # TrackIt
 
+<img src="./logo.svg">
+
 !!! UNDER CONSTRUCTION !!!
 
 ## Packages
