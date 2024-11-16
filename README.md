@@ -1,6 +1,8 @@
 # TrackIt
 
-<img src="./logo.svg">
+<p align="center">
+    <img src="./logo.svg">
+</p>
 
 !!! UNDER CONSTRUCTION !!!
 
