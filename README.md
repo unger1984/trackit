@@ -1,12 +1,20 @@
-# TrackIt
-
 <p align="center">
-    <img src="./logo.svg">
+❗️❗️❗️ **UNDER CONSTRUCTION** ❗️❗️❗️
+</p>
+<p align="center">
+You can use it at your own risk. The project is in developer version 0.0.x
 </p>
 
-❗️❗️❗️ **UNDER CONSTRUCTION** ❗️❗️❗️
+<p align="center">
+    <a href="https://github.com/unger1984/trackit">
+        <img src="https://raw.githubusercontent.com/unger1984/trackit/refs/heads/main/logo.svg" width="150">
+    </a>
+</p>
+<p align="center">
+Lightweight modular logger for Dart and Flutter
+</p>
 
-This packages not published in pub.dev!
+# TrackIt
 
 Trackit is a modular lightweight logger for Dart and Flutter applications. To achieve the functionality you need, you<br> 
 can use ready-made modules described below, or write similar modules manually.
@@ -34,3 +42,14 @@ You can use them as is, or expand them if necessary to suit your needs.
 ## Table of contents
 
 - [Packages](#packages)
+- [TODO](#todo)
+
+## TODO
+
+* ❗️Test it in real projects!
+* Create full example app
+* Write docs (and this README)
+* Create contributing rules
+* Add package for work with [Dio](https://pub.dev/packages/dio)
+* ... any more
+* Publish 1.0.0 version)
