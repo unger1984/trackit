@@ -21,6 +21,8 @@ class TrackitInstance implements InstanceInterface {
           message: message,
           level: level,
           title: _title,
+          exception: error,
+          stackTrace: stackTrace,
         ),
       );
 
