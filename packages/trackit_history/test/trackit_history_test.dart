@@ -43,5 +43,20 @@ void main() {
       expect(history.length, 1);
       expect(history.first.message, 'Second message');
     });
+
+    test('should TrackitHistory clear work', () async {
+      final log = Trackit.create('Test instance');
+      subscription = Trackit().listen((event) {
+        TrackitHistory().add(event);
+      });
+
+      log.info('First message');
+      log.info('Second message');
+
+      await Future.delayed(const Duration(seconds: 1));
+      TrackitHistory().clear();
+      final history = TrackitHistory().history;
+      expect(history.length, 0);
+    });
   });
 }
