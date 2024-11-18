@@ -4,15 +4,15 @@ import 'log_level.dart';
 
 /// This class contains log item data.
 @immutable
-class LogData implements Comparable<LogData> {
-  /// Create [LogData]
+class LogEvent implements Comparable<LogEvent> {
+  /// Create [LogEvent]
   /// [level] - Log Level
   /// [title] - Log instance title
   /// [time] - Log time
   /// [exception] - Exception
   /// [stackTrace] - StackTrace
   /// [message] - Log message
-  const LogData({
+  const LogEvent({
     required this.level,
     required this.title,
     required this.time,
@@ -45,7 +45,7 @@ class LogData implements Comparable<LogData> {
   @nonVirtual
   final Object? message;
 
-  /// Compare [LogData]s by [time]
+  /// Compare [LogEvent]s by [time]
   @override
-  int compareTo(LogData other) => time.compareTo(other.time);
+  int compareTo(LogEvent other) => time.compareTo(other.time);
 }

@@ -4,7 +4,7 @@ import 'package:trackit_color/trackit_color.dart';
 /// Last observer in chain.
 class PrintLogObserver extends TrackitObserver {
   @override
-  void log(LogData data, dynamic formatted) {
+  void log(LogEvent data, dynamic formatted) {
     (formatted?.toString() ?? '').split('\n').forEach(print);
   }
 }

@@ -19,7 +19,7 @@ class TrackitHistory extends TrackitObserver {
   }
 
   @override
-  void log(LogData data, dynamic formatted) {
+  void log(LogEvent data, dynamic formatted) {
     _list.add(data);
     if (_list.length > _maxSize) {
       _list.removeAt(0);

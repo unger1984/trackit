@@ -15,7 +15,7 @@ class ColorBorderedFormatter extends ColorFormatter {
         _withCorners = withCorners;
 
   @override
-  dynamic format(LogData data, dynamic formatted) {
+  dynamic format(LogEvent data, dynamic formatted) {
     final result = [
       _getTopLine(),
       ...(formatted?.toString() ?? data.message?.toString() ?? '')

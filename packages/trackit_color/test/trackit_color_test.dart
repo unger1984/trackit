@@ -6,7 +6,7 @@ class TestObserver extends TrackitObserver {
   String? lastFormatted;
 
   @override
-  void log(LogData log, dynamic formatted) {
+  void log(LogEvent log, dynamic formatted) {
     lastMessage = log.message;
     lastFormatted = formatted;
   }

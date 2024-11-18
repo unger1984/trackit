@@ -1,7 +1,7 @@
 import 'package:meta/meta.dart';
 
 @immutable
-abstract class InstanceInterface {
+abstract interface class InstanceInterface {
   void log(Object message);
   void debug(Object? message);
   void info(Object? message);

@@ -17,7 +17,7 @@ class ColorFormatter extends TrackitFormatter {
   }
 
   @override
-  dynamic format(LogData data, dynamic formatted) {
+  dynamic format(LogEvent data, dynamic formatted) {
     return (formatted?.toString() ?? data.message?.toString() ?? '')
         .split('\n')
         .where((line) => line.trim().isNotEmpty)
