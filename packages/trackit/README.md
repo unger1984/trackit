@@ -5,10 +5,12 @@
 You can use it at your own risk. The project is in developer version 0.x.y
 </p>
 
-# trackit
+# Trackit
 
-Lightweight modular logger for Dart and Flutter. Core module.
-Trackit is a logger that is expandable with additional modules. This is base logger module.
+[Trackit](https://github.com/unger1984/trackit) is a lightweight and modular logging system for Dart and Flutter.
+[Trackit](https://github.com/unger1984/trackit) has a modular structure, which allows to avoid unused functionality.
+
+`trackit` is base logger module for [Trackit](https://github.com/unger1984/trackit).
 Used only to create a log stream from logger instances and the ability to attach handlers to subscribers.
 
 ## Motivation
