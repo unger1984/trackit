@@ -17,9 +17,8 @@ class TrackitInstance implements InstanceInterface {
   void _handleEvent(LogLevel level, Object? message,
           [Object? error, StackTrace? stackTrace]) =>
       _base.handleEvent(
-        LogEvent(
+        LogEvent.create(
           message: message,
-          time: DateTime.now(),
           level: level,
           title: _title,
         ),
@@ -42,7 +41,7 @@ class TrackitInstance implements InstanceInterface {
 
   @override
   void fatal(Object? message, Object? error, StackTrace? stackTrace) {
-    _handleEvent(const LogLevel.error(), message, error, stackTrace);
+    _handleEvent(const LogLevel.fatal(), message, error, stackTrace);
   }
 
   @override
