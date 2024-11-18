@@ -8,12 +8,10 @@ funding:
 
 topics:
   - cross-platform
-  - history
   - storage
   - logging
   - logger
   - logs
-  - log
 
 environment:
   sdk: ">=3.0.0 <3.6.0"
