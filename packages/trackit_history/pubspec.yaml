@@ -3,6 +3,9 @@ description: Trackit logger extension for storing logs events in a memory.
 version: 0.0.2
 repository: https://github.com/unger1984/trackit
 
+funding:
+  - https://boosty.to/unger1984
+
 topics:
   - cross-platform
   - history
