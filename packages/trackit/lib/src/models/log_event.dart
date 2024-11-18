@@ -21,6 +21,22 @@ class LogEvent implements Comparable<LogEvent> {
     this.message,
   });
 
+  factory LogEvent.create({
+    required LogLevel level,
+    required String title,
+    Object? exception,
+    StackTrace? stackTrace,
+    Object? message,
+  }) =>
+      LogEvent(
+        level: level,
+        title: title,
+        time: DateTime.now(),
+        message: message,
+        exception: exception,
+        stackTrace: stackTrace,
+      );
+
   /// Log Level information
   @nonVirtual
   final LogLevel level;

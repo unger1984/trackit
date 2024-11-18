@@ -38,7 +38,7 @@ void main() {
     print(event.message?.toString());
   });
 
-  /// Creating a unique logger instance
+  /// Creating a logger instance
   final log = Trackit.create('MAIN');
 
   /// Logger event generation

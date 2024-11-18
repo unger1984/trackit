@@ -3,13 +3,13 @@ import 'package:trackit/trackit.dart';
 
 void main() {
   group('Trackit', () {
-    test('Trackit instance creation', () {
+    test('should Trackit instance creation', () {
       final log = Trackit.create('Test Instance');
       expect(log, isNotNull);
       expect(log.title, equals('Test Instance'));
     });
 
-    test('Trackit logging', () {
+    test('should Trackit logging', () {
       final log = Trackit.create('Test Instance');
       Trackit().listen(
         expectAsync1(

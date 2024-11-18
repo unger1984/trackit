@@ -15,4 +15,15 @@ void main() {
 
   /// Logger event generation
   log.info('Hello World');
+  log.debug('Debug message');
+  try {
+    throw Exception('Test Error exception message');
+  } catch (exception, stackTrace) {
+    log.error('catch error exception', exception, stackTrace);
+  }
+  try {
+    throw Exception('Test Fatal exception message');
+  } catch (exception, stackTrace) {
+    log.fatal('catch fatal exception', exception, stackTrace);
+  }
 }
