@@ -12,22 +12,22 @@ sealed class LogLevel {
   });
 
   @literal
-  const factory LogLevel.trace() = _LogLevelTrace;
+  const factory LogLevel.trace() = LogLevelTrace;
 
   @literal
-  const factory LogLevel.debug() = _LogLevelDebug;
+  const factory LogLevel.debug() = LogLevelDebug;
 
   @literal
-  const factory LogLevel.info() = _LogLevelInfo;
+  const factory LogLevel.info() = LogLevelInfo;
 
   @literal
-  const factory LogLevel.warn() = _LogLevelWarn;
+  const factory LogLevel.warn() = LogLevelWarn;
 
   @literal
-  const factory LogLevel.error() = _LogLevelError;
+  const factory LogLevel.error() = LogLevelError;
 
   @literal
-  const factory LogLevel.fatal() = _LogLevelFatal;
+  const factory LogLevel.fatal() = LogLevelFatal;
 
   @override
   String toString() => name;
@@ -40,26 +40,26 @@ sealed class LogLevel {
   int get hashCode => level;
 }
 
-final class _LogLevelTrace extends LogLevel {
-  const _LogLevelTrace() : super._(level: 0, name: 'trace');
+final class LogLevelTrace extends LogLevel {
+  const LogLevelTrace() : super._(level: 0, name: 'trace');
 }
 
-final class _LogLevelDebug extends LogLevel {
-  const _LogLevelDebug() : super._(level: 0, name: 'debug');
+final class LogLevelDebug extends LogLevel {
+  const LogLevelDebug() : super._(level: 0, name: 'debug');
 }
 
-final class _LogLevelInfo extends LogLevel {
-  const _LogLevelInfo() : super._(level: 0, name: 'info');
+final class LogLevelInfo extends LogLevel {
+  const LogLevelInfo() : super._(level: 0, name: 'info');
 }
 
-final class _LogLevelWarn extends LogLevel {
-  const _LogLevelWarn() : super._(level: 0, name: 'warning');
+final class LogLevelWarn extends LogLevel {
+  const LogLevelWarn() : super._(level: 0, name: 'warning');
 }
 
-final class _LogLevelError extends LogLevel {
-  const _LogLevelError() : super._(level: 0, name: 'error');
+final class LogLevelError extends LogLevel {
+  const LogLevelError() : super._(level: 0, name: 'error');
 }
 
-final class _LogLevelFatal extends LogLevel {
-  const _LogLevelFatal() : super._(level: 0, name: 'fatal');
+final class LogLevelFatal extends LogLevel {
+  const LogLevelFatal() : super._(level: 0, name: 'fatal');
 }
