@@ -10,6 +10,7 @@ final class ConsoleImpl implements Console {
 
   @override
   void log(String message) {
-      io.stdout.writeln(message);
+    message.split('\n').forEach(
+        (str) => io.stdout.hasTerminal ? io.stdout.writeln(str) : print(str));
   }
 }
