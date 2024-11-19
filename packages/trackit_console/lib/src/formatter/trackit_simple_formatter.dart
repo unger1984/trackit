@@ -29,10 +29,10 @@ final class TrackitSimpleFormatter extends TrackitFormatter<String> {
     for (var str in messageLines) {
       sb.writeln(str);
     }
-    for (var str in (event.exception?.toString().split('\n') ?? [])) {
+    for (var str in exceptionLines) {
       sb.writeln(str);
     }
-    for (var str in (event.stackTrace?.toString().split('\n') ?? [])) {
+    for (var str in stackTraceLines) {
       sb.writeln(str);
     }
 
