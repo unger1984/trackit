@@ -1,3 +1,13 @@
+## 0.1.0
+
+> Note: This release has breaking changes.
+
+ - **FEAT**: Add test clean method. ([b18bea48](https://github.com/unger1984/trackit/commit/b18bea483069563b4e8e40eb804c873fcb51af73))
+ - **DOCS**: Fix topics tags. ([fbf61104](https://github.com/unger1984/trackit/commit/fbf611042d4737f3ecc32f03c7a100dfe3ab7856))
+ - **DOCS**: Add funding link. ([7c30e324](https://github.com/unger1984/trackit/commit/7c30e324356bb749914480d17fe2a1c39d29895d))
+ - **BREAKING** **FIX**: Simplifying the logging system. ([d3b9c47d](https://github.com/unger1984/trackit/commit/d3b9c47d6501cd8b5698ae195577206c80aeb673))
+ - **BREAKING** **FIX**: Simplification of the logger. ([1d67ff70](https://github.com/unger1984/trackit/commit/1d67ff7013887a45b65c70ed8951ac00dbb7a247))
+
 ## 0.0.2
 
  - **FIX**: tests. ([9e351b06](https://github.com/unger1984/trackit/commit/9e351b0618485df3df82507b8f365ff6842159ea))

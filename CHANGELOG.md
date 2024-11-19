@@ -3,6 +3,48 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2024-11-19
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - [`trackit` - `v0.1.0`](#trackit---v010)
+ - [`trackit_console` - `v0.1.0`](#trackit_console---v010)
+ - [`trackit_history` - `v0.1.0`](#trackit_history---v010)
+
+Packages with other changes:
+
+ - There are no other changes in this release.
+
+---
+
+#### `trackit` - `v0.1.0`
+
+ - **FEAT**: LogLevel make public levels. ([f26c2c2f](https://github.com/unger1984/trackit/commit/f26c2c2fb821473eec9c8cf3349643f29a502810))
+ - **FEAT**: Add LogEvent.create factory. ([5e340960](https://github.com/unger1984/trackit/commit/5e340960f0e8915989192743517ef4a0790132ec))
+ - **DOCS**: Fix README. ([814da416](https://github.com/unger1984/trackit/commit/814da4160d71e4df1a4f9efead21a3a598a8f823))
+ - **BUG**: Skiping exception && stackTrace. ([fddba890](https://github.com/unger1984/trackit/commit/fddba8904e5817063a5a8f14993e1bb33246d4d2))
+ - **BUG**: Fix level on fatal(). ([82df8233](https://github.com/unger1984/trackit/commit/82df8233c7b22752918a921ed77d5efe5a61b1f5))
+ - **BREAKING** **FIX**: Simplification of the logger. ([1d67ff70](https://github.com/unger1984/trackit/commit/1d67ff7013887a45b65c70ed8951ac00dbb7a247))
+ - **BREAKING** **FIX**: Simplification of the logger. ([1c9ef4bc](https://github.com/unger1984/trackit/commit/1c9ef4bc169abb5b9f7a6bebd33c210b391122f5))
+
+#### `trackit_console` - `v0.1.0`
+
+ - **BREAKING** **FIX**: Simplify. ([d22651dd](https://github.com/unger1984/trackit/commit/d22651ddf40fbb61dd996c7116e386fccc739fe8))
+ - **BREAKING** **FIX**: Simplification of the logger. ([1d67ff70](https://github.com/unger1984/trackit/commit/1d67ff7013887a45b65c70ed8951ac00dbb7a247))
+
+#### `trackit_history` - `v0.1.0`
+
+ - **FEAT**: Add test clean method. ([b18bea48](https://github.com/unger1984/trackit/commit/b18bea483069563b4e8e40eb804c873fcb51af73))
+ - **DOCS**: Fix topics tags. ([fbf61104](https://github.com/unger1984/trackit/commit/fbf611042d4737f3ecc32f03c7a100dfe3ab7856))
+ - **DOCS**: Add funding link. ([7c30e324](https://github.com/unger1984/trackit/commit/7c30e324356bb749914480d17fe2a1c39d29895d))
+ - **BREAKING** **FIX**: Simplifying the logging system. ([d3b9c47d](https://github.com/unger1984/trackit/commit/d3b9c47d6501cd8b5698ae195577206c80aeb673))
+ - **BREAKING** **FIX**: Simplification of the logger. ([1d67ff70](https://github.com/unger1984/trackit/commit/1d67ff7013887a45b65c70ed8951ac00dbb7a247))
+
+
 ## 2024-11-16
 
 ### Changes

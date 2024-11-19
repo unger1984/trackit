@@ -1,3 +1,10 @@
+## 0.1.0
+
+> Note: This release has breaking changes.
+
+ - **BREAKING** **FIX**: Simplify. ([d22651dd](https://github.com/unger1984/trackit/commit/d22651ddf40fbb61dd996c7116e386fccc739fe8))
+ - **BREAKING** **FIX**: Simplification of the logger. ([1d67ff70](https://github.com/unger1984/trackit/commit/1d67ff7013887a45b65c70ed8951ac00dbb7a247))
+
 ## 0.0.1+1
 
  - **REFACTOR**: Split color and console packages by DRY principe. ([048e2133](https://github.com/unger1984/trackit/commit/048e2133de2a6d37870bce6a1608b7b28696ab4c))

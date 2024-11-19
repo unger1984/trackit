@@ -1,6 +1,6 @@
 name: trackit_history
 description: Trackit logger extension for storing logs events in a memory.
-version: 0.0.2
+version: 0.1.0
 repository: https://github.com/unger1984/trackit
 
 funding:
@@ -17,7 +17,7 @@ environment:
   sdk: ">=3.0.0 <3.6.0"
 
 dependencies:
-  trackit: ^0.0.1+1
+  trackit: ^0.1.0
 
 dev_dependencies:
   lints: ^5.0.0
