@@ -11,6 +11,7 @@ import 'package:meta/meta.dart';
 import 'src/instance/trackit_instance.dart';
 import 'src/trackit_base.dart';
 
+export 'src/instance/trackit_instance.dart';
 export 'src/models/log_event.dart';
 export 'src/models/log_level.dart';
 

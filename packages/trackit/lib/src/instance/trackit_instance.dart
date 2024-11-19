@@ -6,7 +6,7 @@ import '../trackit_base.dart';
 import 'instance_interface.dart';
 
 @immutable
-class TrackitInstance implements InstanceInterface {
+final class TrackitInstance implements InstanceInterface {
   final String _title;
   final TrackitBase _base;
 
