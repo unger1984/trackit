@@ -15,6 +15,37 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`trackit` - `v0.1.0+1`](#trackit---v0101)
+ - [`trackit_console` - `v0.1.0+3`](#trackit_console---v0103)
+ - [`trackit_history` - `v0.1.0+1`](#trackit_history---v0101)
+
+---
+
+#### `trackit` - `v0.1.0+1`
+
+ - **DOCS**: Fix pubspec. ([7cac706c](https://github.com/unger1984/trackit/commit/7cac706c74d7205749ee4b653b0123c544758a6d))
+
+#### `trackit_console` - `v0.1.0+3`
+
+ - **DOCS**: Fix pubspec. ([7cac706c](https://github.com/unger1984/trackit/commit/7cac706c74d7205749ee4b653b0123c544758a6d))
+
+#### `trackit_history` - `v0.1.0+1`
+
+ - **DOCS**: Fix pubspec. ([7cac706c](https://github.com/unger1984/trackit/commit/7cac706c74d7205749ee4b653b0123c544758a6d))
+
+
+## 2024-11-19
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`trackit_console` - `v0.1.0+2`](#trackit_console---v0102)
 
 ---

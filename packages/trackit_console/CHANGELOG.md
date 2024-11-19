@@ -1,3 +1,7 @@
+## 0.1.0+3
+
+ - **DOCS**: Fix pubspec. ([7cac706c](https://github.com/unger1984/trackit/commit/7cac706c74d7205749ee4b653b0123c544758a6d))
+
 ## 0.1.0+2
 
  - **FIX**: Fix stackTrace and exception output in TrackitSimpleFormatter. ([45691198](https://github.com/unger1984/trackit/commit/4569119822bdb0e93b1c27f55e67ece087f0f3d9))
