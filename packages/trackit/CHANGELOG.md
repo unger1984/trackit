@@ -1,3 +1,7 @@
+## 0.1.1
+
+ - **FEAT**: TrackitInstance now ready for immport. ([f8af8f23](https://github.com/unger1984/trackit/commit/f8af8f2306739c37cf2a201fb40dae5304b918f6))
+
 ## 0.1.0+1
 
  - **DOCS**: Fix pubspec. ([7cac706c](https://github.com/unger1984/trackit/commit/7cac706c74d7205749ee4b653b0123c544758a6d))

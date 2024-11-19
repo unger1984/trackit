@@ -1,3 +1,7 @@
+## 0.1.0+2
+
+ - Update a dependency to the latest release.
+
 ## 0.1.0+1
 
  - **DOCS**: Fix pubspec. ([7cac706c](https://github.com/unger1984/trackit/commit/7cac706c74d7205749ee4b653b0123c544758a6d))

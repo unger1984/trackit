@@ -15,6 +15,36 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`trackit` - `v0.1.1`](#trackit---v011)
+ - [`trackit_console` - `v0.1.0+4`](#trackit_console---v0104)
+ - [`trackit_history` - `v0.1.0+2`](#trackit_history---v0102)
+
+Packages with dependency updates only:
+
+> Packages listed below depend on other packages in this workspace that have had changes. Their versions have been incremented to bump the minimum dependency versions of the packages they depend upon in this project.
+
+ - `trackit_console` - `v0.1.0+4`
+ - `trackit_history` - `v0.1.0+2`
+
+---
+
+#### `trackit` - `v0.1.1`
+
+ - **FEAT**: TrackitInstance now ready for immport. ([f8af8f23](https://github.com/unger1984/trackit/commit/f8af8f2306739c37cf2a201fb40dae5304b918f6))
+
+
+## 2024-11-19
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`trackit` - `v0.1.0+1`](#trackit---v0101)
  - [`trackit_console` - `v0.1.0+3`](#trackit_console---v0103)
  - [`trackit_history` - `v0.1.0+1`](#trackit_history---v0101)
