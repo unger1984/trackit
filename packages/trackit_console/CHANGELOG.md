@@ -1,3 +1,8 @@
+## 0.1.0+1
+
+ - **DOCS**: Fix docs. ([e958bc94](https://github.com/unger1984/trackit/commit/e958bc949c3e0cdbd874a85e8417d088d71f7934))
+ - **DOCS**: Fix screenshot links. ([8eb777b4](https://github.com/unger1984/trackit/commit/8eb777b43da0a63ed9ec8d7cfe991e3ed2979917))
+
 ## 0.1.0
 
 > Note: This release has breaking changes.

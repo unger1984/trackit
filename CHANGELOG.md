@@ -11,6 +11,28 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 Packages with breaking changes:
 
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`trackit_console` - `v0.1.0+1`](#trackit_console---v0101)
+
+---
+
+#### `trackit_console` - `v0.1.0+1`
+
+ - **DOCS**: Fix docs. ([e958bc94](https://github.com/unger1984/trackit/commit/e958bc949c3e0cdbd874a85e8417d088d71f7934))
+ - **DOCS**: Fix screenshot links. ([8eb777b4](https://github.com/unger1984/trackit/commit/8eb777b43da0a63ed9ec8d7cfe991e3ed2979917))
+
+
+## 2024-11-19
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
  - [`trackit` - `v0.1.0`](#trackit---v010)
  - [`trackit_console` - `v0.1.0`](#trackit_console---v010)
  - [`trackit_history` - `v0.1.0`](#trackit_history---v010)
