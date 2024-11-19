@@ -8,9 +8,9 @@ You can use it at your own risk. The project is in developer version 0.x.y
 # Trackit Console module
 
 Allows you to output your logs like this 
-<img src="https://raw.githubusercontent.com/unger1984/trackit/refs/heads/main/packages/trackit_console/assets/screen1.png" >
+<img src="https://github.com/unger1984/trackit/blob/700933e4e70d3174c1250fce322ae0dded4cc82a/packages/trackit_console/assets/screen1.png" >
 or like this 
-<img src="https://raw.githubusercontent.com/unger1984/trackit/refs/heads/main/packages/trackit_console/assets/screen2.png" >
+<img src="https://github.com/unger1984/trackit/blob/700933e4e70d3174c1250fce322ae0dded4cc82a/packages/trackit_console/assets/screen2.png" >
 
 
 [Trackit](https://github.com/unger1984/trackit) is a lightweight and modular logging system for Dart and Flutter. Trackit has a modular structure, which allows
@@ -137,7 +137,7 @@ void main(){
   }
 }
 ```
-<img src="https://raw.githubusercontent.com/unger1984/trackit/refs/heads/main/packages/trackit_console/assets/screen1.png" >
+<img src="https://github.com/unger1984/trackit/blob/700933e4e70d3174c1250fce322ae0dded4cc82a/packages/trackit_console/assets/screen1.png" >
 
 In addition, using the post parameter, you can post-process the generated string. For example, add color or a frame to it. 
 Here is an example of use:
@@ -178,6 +178,6 @@ void main(){
   }
 }
 ```
-<img src="https://raw.githubusercontent.com/unger1984/trackit/refs/heads/main/packages/trackit_console/assets/screen2.png" >
+<img src="https://github.com/unger1984/trackit/blob/700933e4e70d3174c1250fce322ae0dded4cc82a/packages/trackit_console/assets/screen2.png" >
 
 See full [documentation](https://github.com/unger1984/trackit) for details.
