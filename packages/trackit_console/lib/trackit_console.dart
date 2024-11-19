@@ -3,8 +3,34 @@
 /// This is module for printing logs to console in Dart application.
 library;
 
-export 'package:trackit/trackit.dart';
+import 'package:trackit/trackit.dart';
 
-export 'src/trackit_console.dart';
-export 'src/trackit_console_io.dart'
-    if (dart.library.html) 'src/console/trackit_console_web.dart';
+import 'src/platform_specific/console_stub.dart'
+    // ignore: uri_does_not_exist
+    if (dart.library.html) 'src/platform_specific/console_web.dart'
+    // ignore: uri_does_not_exist
+    if (dart.library.io) 'src/platform_specific/console_io.dart';
+import 'trackit_console.dart';
+
+export 'src/formatter/trackit_formatter.dart';
+export 'src/formatter/trackit_json_formatter.dart';
+export 'src/formatter/trackit_pattern_formater.dart';
+export 'src/formatter/trackit_simple_formatter.dart';
+export 'src/platform_specific/console.dart';
+export 'src/stringify/log_event_string.dart';
+export 'src/stringify/log_event_stringify.dart';
+
+final class TrackitConsole {
+  final Console _console;
+  final TrackitFormatter<String> _formatter;
+
+  const TrackitConsole({
+    Console? console,
+    TrackitFormatter<String>? formatter,
+  })  : _console = console ?? const ConsoleImpl(),
+        _formatter = formatter ?? const TrackitSimpleFormatter();
+
+  void onData(LogEvent event) {
+    _console.log(_formatter.format(event));
+  }
+}

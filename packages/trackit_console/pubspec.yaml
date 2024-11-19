@@ -3,17 +3,29 @@ description: Trackit logger extension and outputting logs to the console. Use th
 version: 0.0.1+1
 repository: https://github.com/unger1984/trackit
 
+funding:
+  - https://boosty.to/unger1984
+
 topics:
-  - logger
+  - cross-platform
   - logging
+  - logger
+  - logs
   - log
-  - console
-  - cli
+
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  web:
+  windows:
 
 environment:
-  sdk: ">2.19.0 <3.6.0"
+  sdk: ">=3.0.0 <3.6.0"
 
 dependencies:
+  meta: ^1.16.0
   trackit: ^0.0.1+1
 
 dev_dependencies:
