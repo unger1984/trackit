@@ -1,3 +1,7 @@
+## 0.1.0+2
+
+ - **FIX**: Fix stackTrace and exception output in TrackitSimpleFormatter. ([45691198](https://github.com/unger1984/trackit/commit/4569119822bdb0e93b1c27f55e67ece087f0f3d9))
+
 ## 0.1.0+1
 
  - **DOCS**: Fix docs. ([e958bc94](https://github.com/unger1984/trackit/commit/e958bc949c3e0cdbd874a85e8417d088d71f7934))
