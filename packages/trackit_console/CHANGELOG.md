@@ -1,3 +1,9 @@
+## 0.2.0
+
+> Note: This release has breaking changes.
+
+ - **BREAKING** **FIX**: Fix support flutter. ([d8b2e9c1](https://github.com/unger1984/trackit/commit/d8b2e9c1a9f4f6c865f09b98732e3fb3ba299e45))
+
 ## 0.1.0+4
 
  - Update a dependency to the latest release.

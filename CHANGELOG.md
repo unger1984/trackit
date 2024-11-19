@@ -11,6 +11,27 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 Packages with breaking changes:
 
+ - [`trackit_console` - `v0.2.0`](#trackit_console---v020)
+
+Packages with other changes:
+
+ - There are no other changes in this release.
+
+---
+
+#### `trackit_console` - `v0.2.0`
+
+ - **BREAKING** **FIX**: Fix support flutter. ([d8b2e9c1](https://github.com/unger1984/trackit/commit/d8b2e9c1a9f4f6c865f09b98732e3fb3ba299e45))
+
+
+## 2024-11-19
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
  - There are no breaking changes in this release.
 
 Packages with other changes:
