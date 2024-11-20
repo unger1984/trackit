@@ -48,6 +48,19 @@ class TrackitPatternFormater extends TrackitFormatter<String> {
         _post = post,
         super();
 
+  /// Event to string type converter by default
+  LogEventString _defaultLogEventStringify(LogEvent event) {
+    return LogEventString(
+      level: event.level.name,
+      title: event.title,
+      time: event.time.toIso8601String(),
+      message: event.message?.toString() ?? '',
+      exception: event.exception?.toString() ?? '',
+      stackTrace: event.stackTrace?.toString() ?? '',
+    );
+  }
+
+  /// Overriding the formatting method
   @override
   String format(LogEvent event) {
     final eventStrings =
@@ -63,17 +76,5 @@ class TrackitPatternFormater extends TrackitFormatter<String> {
         .trim();
 
     return _post?.call(event, result) ?? result;
-  }
-
-  /// Event to string type converter by default
-  LogEventString _defaultLogEventStringify(LogEvent event) {
-    return LogEventString(
-      level: event.level.name,
-      title: event.title,
-      time: event.time.toIso8601String(),
-      message: event.message?.toString() ?? '',
-      exception: event.exception?.toString() ?? '',
-      stackTrace: event.stackTrace?.toString() ?? '',
-    );
   }
 }

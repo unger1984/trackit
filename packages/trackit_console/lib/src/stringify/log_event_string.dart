@@ -1,6 +1,6 @@
 import 'package:meta/meta.dart';
 
-/// An object for storing stringified fields [LogEvent].
+/// An object for storing stringifies fields [LogEvent].
 @immutable
 final class LogEventString {
   final String level;
