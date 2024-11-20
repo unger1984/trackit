@@ -15,6 +15,27 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`trackit_console` - `v0.2.0+2`](#trackit_console---v0202)
+
+---
+
+#### `trackit_console` - `v0.2.0+2`
+
+ - **DOCS**: Fix description. ([7a96e5b7](https://github.com/unger1984/trackit/commit/7a96e5b7c8d4d68669792629abbd942af935adb3))
+
+
+## 2024-11-20
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`trackit` - `v0.1.1+1`](#trackit---v0111)
  - [`trackit_console` - `v0.2.0+1`](#trackit_console---v0201)
  - [`trackit_history` - `v0.1.0+3`](#trackit_history---v0103)

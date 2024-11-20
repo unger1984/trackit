@@ -1,3 +1,7 @@
+## 0.2.0+2
+
+ - **DOCS**: Fix description. ([7a96e5b7](https://github.com/unger1984/trackit/commit/7a96e5b7c8d4d68669792629abbd942af935adb3))
+
 ## 0.2.0+1
 
  - **DOCS**: Fix meta. ([dc1ee041](https://github.com/unger1984/trackit/commit/dc1ee0415b5e993ba9f8fe6701bbd4aae6461fdc))
