@@ -3,6 +3,39 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2024-11-20
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`trackit` - `v0.1.1+1`](#trackit---v0111)
+ - [`trackit_console` - `v0.2.0+1`](#trackit_console---v0201)
+ - [`trackit_history` - `v0.1.0+3`](#trackit_history---v0103)
+
+---
+
+#### `trackit` - `v0.1.1+1`
+
+ - **DOCS**: Fix meta. ([dc1ee041](https://github.com/unger1984/trackit/commit/dc1ee0415b5e993ba9f8fe6701bbd4aae6461fdc))
+ - **DOCS**: Fix yaml. ([db9400c4](https://github.com/unger1984/trackit/commit/db9400c477e45fcf1849686239baf4533620f95f))
+
+#### `trackit_console` - `v0.2.0+1`
+
+ - **DOCS**: Fix meta. ([dc1ee041](https://github.com/unger1984/trackit/commit/dc1ee0415b5e993ba9f8fe6701bbd4aae6461fdc))
+ - **DOCS**: Fix yaml. ([db9400c4](https://github.com/unger1984/trackit/commit/db9400c477e45fcf1849686239baf4533620f95f))
+
+#### `trackit_history` - `v0.1.0+3`
+
+ - **DOCS**: Fix yaml. ([db9400c4](https://github.com/unger1984/trackit/commit/db9400c477e45fcf1849686239baf4533620f95f))
+
+
 ## 2024-11-19
 
 ### Changes

@@ -1,3 +1,8 @@
+## 0.1.1+1
+
+ - **DOCS**: Fix meta. ([dc1ee041](https://github.com/unger1984/trackit/commit/dc1ee0415b5e993ba9f8fe6701bbd4aae6461fdc))
+ - **DOCS**: Fix yaml. ([db9400c4](https://github.com/unger1984/trackit/commit/db9400c477e45fcf1849686239baf4533620f95f))
+
 ## 0.1.1
 
  - **FEAT**: TrackitInstance now ready for immport. ([f8af8f23](https://github.com/unger1984/trackit/commit/f8af8f2306739c37cf2a201fb40dae5304b918f6))

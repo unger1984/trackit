@@ -1,3 +1,7 @@
+## 0.1.0+3
+
+ - **DOCS**: Fix yaml. ([db9400c4](https://github.com/unger1984/trackit/commit/db9400c477e45fcf1849686239baf4533620f95f))
+
 ## 0.1.0+2
 
  - Update a dependency to the latest release.
