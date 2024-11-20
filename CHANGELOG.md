@@ -15,6 +15,27 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`trackit_console` - `v0.2.0+3`](#trackit_console---v0203)
+
+---
+
+#### `trackit_console` - `v0.2.0+3`
+
+ - **DOCS**: Documenting the code. ([c6ed98c7](https://github.com/unger1984/trackit/commit/c6ed98c7f7234d773d5f05a5575f287f84bb567e))
+
+
+## 2024-11-20
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`trackit_console` - `v0.2.0+2`](#trackit_console---v0202)
 
 ---

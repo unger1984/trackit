@@ -1,3 +1,7 @@
+## 0.2.0+3
+
+ - **DOCS**: Documenting the code. ([c6ed98c7](https://github.com/unger1984/trackit/commit/c6ed98c7f7234d773d5f05a5575f287f84bb567e))
+
 ## 0.2.0+2
 
  - **DOCS**: Fix description. ([7a96e5b7](https://github.com/unger1984/trackit/commit/7a96e5b7c8d4d68669792629abbd942af935adb3))
