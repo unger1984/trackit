@@ -1,4 +1,4 @@
-name: trackit
+name: Trackit
 repository: https://github.com/unger1984/trackit
 
 sdkPath: .fvm/flutter_sdk
@@ -12,6 +12,8 @@ command:
  version:
   # Only allow versioning to happen on main branch.
   branch: main
+  # Generates a link to a prefilled GitHub release creation page.
+  releaseUrl: true
 
 scripts:
  lint:all:
