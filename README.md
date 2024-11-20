@@ -40,8 +40,20 @@ You can use them as is, or expand them if necessary to suit your needs.
 ## Table of contents
 
 - [Packages](#packages)
+- [Motivation](#motivation)
 - [How to use](#how-to-use)
 - [RoadMap](#roadmap)
+
+## Motivation
+
+The logging system is an auxiliary module. It should not be a combine and be able to do everything. The basic logger
+module should only be able to generate an event and send it further.
+
+To display, process and collect logger events, it is necessary to use separate modules, which are necessary in each specific case.
+
+Each application has its own requirements for log processing. Some output them to the console, some send them to the
+error collection system (Firebase Crashlytics, Sentry, etc), some display them in the interface, and perhaps all at the same time!
+
 
 ## How to use
 

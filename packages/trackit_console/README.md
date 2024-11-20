@@ -5,6 +5,14 @@
 You can use it at your own risk. The project is in developer version 0.x.y
 </p>
 
+<p align="center">
+    <a href="https://github.com/unger1984/trackit">
+        <img src="https://raw.githubusercontent.com/unger1984/trackit/refs/heads/main/logo.svg" width="150">
+    </a>
+</p>
+
+Full [documentation](https://github.com/unger1984/trackit)
+
 # Trackit Console module
 
 Allows you to output your logs like this 
