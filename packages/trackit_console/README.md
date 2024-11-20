@@ -121,7 +121,7 @@ LogEventString stringifyEvent(LogEvent event) {
   
   return LogEventString(
     level:
-        '\x1B[${color(event)}${event.level.name.toUpperCase().substring(0, 1)}\x1B[0m',
+        '\x1B[${color()}${event.level.name.toUpperCase().substring(0, 1)}\x1B[0m',
     title: event.title.toUpperCase(),
     time: (event.time.millisecondsSinceEpoch ~/ 1000).toString(),
     message: event.message?.toString() ?? '',

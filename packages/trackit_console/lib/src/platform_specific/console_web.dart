@@ -15,6 +15,6 @@ final class ConsoleImpl implements Console {
   ///
   @override
   void log(String message) {
-    message.split('\n').forEach(html.window.console.log);
+    html.window.console.log(message);
   }
 }
