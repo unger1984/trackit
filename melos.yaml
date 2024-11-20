@@ -9,6 +9,8 @@ packages:
 command:
  bootstrap:
   usePubspecOverrides: true
+  dependencies:
+   meta: ^1.15.0
  version:
   # Only allow versioning to happen on main branch.
   branch: main
