@@ -1,3 +1,10 @@
+## 0.3.0
+
+> Note: This release has breaking changes.
+
+ - **FIX**: Fix test code style. ([b4515b7e](https://github.com/unger1984/trackit/commit/b4515b7e8019b317f86b02f6f026b7cebf0ebefc))
+ - **BREAKING** **FIX**: Fix web output. ([141112a8](https://github.com/unger1984/trackit/commit/141112a8f00a4ce2c8ed523677262b774e2fae56))
+
 ## 0.2.0+3
 
  - **DOCS**: Documenting the code. ([c6ed98c7](https://github.com/unger1984/trackit/commit/c6ed98c7f7234d773d5f05a5575f287f84bb567e))

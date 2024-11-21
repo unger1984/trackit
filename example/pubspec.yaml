@@ -14,7 +14,7 @@ dependencies:
   flutter_bloc: ^8.1.6
   dio: ^5.7.0
   trackit: ^0.1.1          # use pubspec_overrides.yaml
-  trackit_console: ^0.2.0+2  # use pubspec_overrides.yaml
+  trackit_console: ^0.3.0  # use pubspec_overrides.yaml
   trackit_history: ^0.1.0+3  # use pubspec_overrides.yaml
 
 dev_dependencies:

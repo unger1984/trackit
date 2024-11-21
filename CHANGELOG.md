@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2024-11-21
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - [`trackit_console` - `v0.3.0`](#trackit_console---v030)
+
+Packages with other changes:
+
+ - There are no other changes in this release.
+
+---
+
+#### `trackit_console` - `v0.3.0`
+
+ - **FIX**: Fix test code style. ([b4515b7e](https://github.com/unger1984/trackit/commit/b4515b7e8019b317f86b02f6f026b7cebf0ebefc))
+ - **BREAKING** **FIX**: Fix web output. ([141112a8](https://github.com/unger1984/trackit/commit/141112a8f00a4ce2c8ed523677262b774e2fae56))
+
+
 ## 2024-11-20
 
 ### Changes
