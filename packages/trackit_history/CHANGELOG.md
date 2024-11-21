@@ -1,3 +1,7 @@
+## 0.1.0+4
+
+ - **DOCS**: Fix documentation. ([0c491b6b](https://github.com/unger1984/trackit/commit/0c491b6ba61bf68e22a4318ff25c904ebbd9b388))
+
 ## 0.1.0+3
 
  - **DOCS**: Fix yaml. ([db9400c4](https://github.com/unger1984/trackit/commit/db9400c477e45fcf1849686239baf4533620f95f))

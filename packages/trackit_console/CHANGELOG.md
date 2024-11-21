@@ -1,3 +1,7 @@
+## 0.3.0+1
+
+ - **DOCS**: Fix documentation. ([0c491b6b](https://github.com/unger1984/trackit/commit/0c491b6ba61bf68e22a4318ff25c904ebbd9b388))
+
 ## 0.3.0
 
 > Note: This release has breaking changes.
