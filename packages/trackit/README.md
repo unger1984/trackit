@@ -1,13 +1,6 @@
 <p align="center">
-❗️❗️❗️ <b>UNDER CONSTRUCTION</b> ❗️❗️❗️
-</p>
-<p align="center">
-You can use it at your own risk. The project is in developer version 0.x.y
-</p>
-
-<p align="center">
     <a href="https://github.com/unger1984/trackit">
-        <img src="https://raw.githubusercontent.com/unger1984/trackit/refs/heads/main/logo.svg" width="150">
+        <img src="https://raw.githubusercontent.com/unger1984/trackit/refs/heads/main/assets/logo.svg" width="150">
     </a>
 </p>
 

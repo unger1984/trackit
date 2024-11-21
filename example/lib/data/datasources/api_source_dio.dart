@@ -4,11 +4,9 @@ import 'dart:async';
 
 import 'package:dio/dio.dart';
 import 'package:example/domain/datasources/api_source.dart';
-import 'package:trackit/trackit.dart';
 
 /// [Dio] implementation [ApiSource].
 class ApiSourceDio extends ApiSource {
-  static final _log = Trackit.create('ApiSourceDio');
   late Dio _dio;
   final String baseUrl;
   final List<Interceptor>? interceptors;

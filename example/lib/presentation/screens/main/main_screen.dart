@@ -12,10 +12,6 @@ class MainScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var width = MediaQuery.sizeOf(context).width;
-
-    // print(size.width);
-
     return Scaffold(
       appBar: AppBar(
         title: Text(

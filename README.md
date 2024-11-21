@@ -1,13 +1,6 @@
 <p align="center">
-❗️❗️❗️ <b>UNDER CONSTRUCTION</b> ❗️❗️❗️
-</p>
-<p align="center">
-You can use it at your own risk. The project is in developer version 0.0.x
-</p>
-
-<p align="center">
     <a href="https://github.com/unger1984/trackit">
-        <img src="https://raw.githubusercontent.com/unger1984/trackit/refs/heads/main/logo.svg" width="150">
+        <img src="https://raw.githubusercontent.com/unger1984/trackit/refs/heads/main/assets/logo.svg" width="150">
     </a>
 </p>
 <p align="center">
@@ -42,6 +35,7 @@ You can use them as is, or expand them if necessary to suit your needs.
 - [Packages](#packages)
 - [Motivation](#motivation)
 - [How to use](#how-to-use)
+- [Full example](#full-example)
 - [RoadMap](#roadmap)
 
 ## Motivation
@@ -61,10 +55,16 @@ error collection system (Firebase Crashlytics, Sentry, etc), some display them i
 * `trackit_console` - [README](packages/trackit_console/README.md)
 * `trackit_history` - [README](packages/trackit_history/README.md)
 
+## Full example
+
+The example code demonstrating the capabilities of the Trekit logger ecosystem can be viewed in the [example](example)
+
+<img src="https://raw.githubusercontent.com/unger1984/trackit/refs/heads/main/assets/screen3.png" width="150">
+
 ## RoadMap
 
+* ✅ Create full example app
 * ❗️Test it in real projects!
-* Create full example app
 * Write docs (and this README) (How use it with routing, blocs etc...)
 * Create contributing rules
 * Add package for work with [Dio](https://pub.dev/packages/dio)
