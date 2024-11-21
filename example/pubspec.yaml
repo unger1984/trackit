@@ -1,0 +1,29 @@
+name: example
+description: "Trackit example project"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  bloc_concurrency: ^0.2.5
+  flutter_bloc: ^8.1.6
+  dio: ^5.7.0
+  trackit: ^0.1.1          # use pubspec_overrides.yaml
+  trackit_console: ^0.2.0+2  # use pubspec_overrides.yaml
+  trackit_history: ^0.1.0+3  # use pubspec_overrides.yaml
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
