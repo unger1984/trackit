@@ -56,7 +56,7 @@ void main() {
 
     test('should TrackitPatternFormater post work', () {
       final formatter = TrackitPatternFormater(
-        post: (event, result) => '| ${result} |',
+        post: (event, result) => '| $result |',
       );
       final event = LogEvent.create(
         level: const LogLevel.debug(),
