@@ -57,7 +57,7 @@ error collection system (Firebase Crashlytics, Sentry, etc), some display them i
 
 ## Full example
 
-The example code demonstrating the capabilities of the Trekit logger ecosystem can be viewed in the [example](example)
+The example code demonstrating the capabilities of the Trackit logger ecosystem can be viewed in the [example](example)
 
 <img src="https://raw.githubusercontent.com/unger1984/trackit/refs/heads/main/assets/screen3.png" >
 
