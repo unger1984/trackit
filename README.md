@@ -64,9 +64,9 @@ The example code demonstrating the capabilities of the Trackit logger ecosystem 
 ## RoadMap
 
 * ✅ Create full example app
-* ❗️Test it in real projects!
+* ✅ Test it in real projects!
 * Write docs (and this README) (How use it with routing, blocs etc...)
-* Create contributing rules
+* ❗️ Create contributing rules
 * Add package for work with [Dio](https://pub.dev/packages/dio)
 * ... any more
 * Publish 1.0.0 version)
