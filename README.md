@@ -55,6 +55,7 @@ error collection system (Firebase Crashlytics, Sentry, etc), some display them i
 * `trackit_console` - [README](packages/trackit_console/README.md)
 * `trackit_history` - [README](packages/trackit_history/README.md)
 * [How to use with BLoC](#how-to-use-with-bloc)
+* [How to use with Riverpod](#how-to-use-with-reverpod)
 
 ## Full example
 
@@ -100,4 +101,56 @@ set it is BLoC observer:
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 Bloc.observer = AppBlocObserver.instance();
+```
+### How to use with Reverpod
+
+Create observer:
+
+```dart
+import 'package:riverpod/riverpod.dart';
+import 'package:trackit/trackit.dart';
+
+class RiverpodObserver extends ProviderObserver {
+  static final _log = Trackit.create('RiverpodObserver');
+
+  @override
+  void providerDidFail(
+    ProviderBase<Object?> provider,
+    Object error,
+    StackTrace stackTrace,
+    ProviderContainer container,
+  ) {
+    _log.error('Unhandled riverpod exception', error, stackTrace);
+  }
+
+  @override
+  void didUpdateProvider(
+    ProviderBase<Object?> provider,
+    Object? previousValue,
+    Object? newValue,
+    ProviderContainer container,
+  ) {
+    _log.debug(
+        '${provider.name ?? provider.runtimeType} provide new value $newValue');
+  }
+}
+```
+
+set it is Riverpod observer:
+
+```dart
+import 'package:flutter/material.dart';
+import 'package:riverpod/riverpod.dart';
+
+class App extends StatelessWidget {
+  const App({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return ProviderScope(
+        observers: [RiverpodObserver()], 
+        child: const MaterialApp(home: Home()),
+    );
+  }
+}
 ```
