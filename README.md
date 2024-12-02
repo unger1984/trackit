@@ -54,6 +54,7 @@ error collection system (Firebase Crashlytics, Sentry, etc), some display them i
 * `trackit` - [README](packages/trackit/README.md)
 * `trackit_console` - [README](packages/trackit_console/README.md)
 * `trackit_history` - [README](packages/trackit_history/README.md)
+* [How to use with BLoC](#how-to-use-with-bloc)
 
 ## Full example
 
@@ -70,3 +71,33 @@ The example code demonstrating the capabilities of the Trekit logger ecosystem c
 * Add package for work with [Dio](https://pub.dev/packages/dio)
 * ... any more
 * Publish 1.0.0 version)
+
+### How to use with BLoC
+
+Create observer: 
+```dart
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:trackit/trackit.dart';
+
+class AppBlocObserver extends BlocObserver {
+  static final _log = Trackit.create('BlocObserver');
+  static AppBlocObserver? _instance;
+
+  factory AppBlocObserver.instance() => _instance ??= const AppBlocObserver._();
+  const AppBlocObserver._();
+
+  @override
+  void onError(BlocBase<dynamic> bloc, Object error, StackTrace stackTrace) {
+    super.onError(bloc, error, stackTrace);
+    _log.error('Unhandled bloc exception', error, stackTrace);
+  }
+}
+```
+
+set it is BLoC observer:
+
+```dart
+import 'package:flutter_bloc/flutter_bloc.dart';
+
+Bloc.observer = AppBlocObserver.instance();
+```
