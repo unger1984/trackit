@@ -58,16 +58,16 @@ error collection system (Firebase Crashlytics, Sentry, etc), some display them i
 
 ## Full example
 
-The example code demonstrating the capabilities of the Trekit logger ecosystem can be viewed in the [example](example)
+The example code demonstrating the capabilities of the Trackit logger ecosystem can be viewed in the [example](example)
 
 <img src="https://raw.githubusercontent.com/unger1984/trackit/refs/heads/main/assets/screen3.png" >
 
 ## RoadMap
 
 * ✅ Create full example app
-* ❗️Test it in real projects!
+* ✅ Test it in real projects!
 * Write docs (and this README) (How use it with routing, blocs etc...)
-* Create contributing rules
+* ❗️ Create contributing rules
 * Add package for work with [Dio](https://pub.dev/packages/dio)
 * ... any more
 * Publish 1.0.0 version)
