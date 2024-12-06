@@ -3,6 +3,37 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2024-12-06
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`trackit` - `v0.1.2`](#trackit---v012)
+ - [`trackit_console` - `v0.3.1`](#trackit_console---v031)
+ - [`trackit_history` - `v0.1.1`](#trackit_history---v011)
+
+---
+
+#### `trackit` - `v0.1.2`
+
+ - **FEAT**: support 3.6.0. ([4649e7a8](https://github.com/unger1984/trackit/commit/4649e7a85103afc8cdbf86a20755a7c48de716dd))
+
+#### `trackit_console` - `v0.3.1`
+
+ - **FEAT**: support 3.6.0. ([4649e7a8](https://github.com/unger1984/trackit/commit/4649e7a85103afc8cdbf86a20755a7c48de716dd))
+
+#### `trackit_history` - `v0.1.1`
+
+ - **FEAT**: support 3.6.0. ([4649e7a8](https://github.com/unger1984/trackit/commit/4649e7a85103afc8cdbf86a20755a7c48de716dd))
+
+
 ## 2024-11-21
 
 ### Changes

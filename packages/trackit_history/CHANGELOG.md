@@ -1,3 +1,7 @@
+## 0.1.1
+
+ - **FEAT**: support 3.6.0. ([4649e7a8](https://github.com/unger1984/trackit/commit/4649e7a85103afc8cdbf86a20755a7c48de716dd))
+
 ## 0.1.0+4
 
  - **DOCS**: Fix documentation. ([0c491b6b](https://github.com/unger1984/trackit/commit/0c491b6ba61bf68e22a4318ff25c904ebbd9b388))
