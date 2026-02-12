@@ -35,11 +35,9 @@ final class TrackitConsole {
   /// event to a string. By default, [TrackitSimpleFormatter] is used. You can
   /// replace it with [TrackitJsonFormatter], [TrackitPatternFormatter], or
   /// your own formatter implementation [TrackitFormatter] interface.
-  const TrackitConsole({
-    Console? console,
-    TrackitFormatter<String>? formatter,
-  })  : _console = console ?? const ConsoleImpl(),
-        _formatter = formatter ?? const TrackitSimpleFormatter();
+  const TrackitConsole({Console? console, TrackitFormatter<String>? formatter})
+    : _console = console ?? const ConsoleImpl(),
+      _formatter = formatter ?? const TrackitSimpleFormatter();
 
   /// The method that needs to be passed to the logger event stream listener
   void onData(LogEvent event) {

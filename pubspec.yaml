@@ -1,7 +1,35 @@
-name: trackit
+name: _
+publish_to: none
 
 environment:
-  sdk: '>=3.0.0 <4.0.0'
+  sdk: '>=3.9.0 <4.0.0'
+
+workspace:
+  - packages/trackit
+  - packages/trackit_console
+  - packages/trackit_history
+  - example
+
 dev_dependencies:
-  melos: ^6.2.0
+  melos: ^7.4.0
+
+melos:
+  repository: https://github.com/unger1984/trackit
+  sdkPath: .fvm/flutter_sdk
+  scripts:
+    lint:all:
+      steps:
+        - analyze
+        - format
+      description: Run all static analysis checks.
+    test:
+      exec: flutter test --coverage
+      packageFilters:
+        dirExists: test
+      concurrency: 1
+      description: Run tests for all packages
+  command:
+    version:
+      branch: main
+      releaseUrl: true
 

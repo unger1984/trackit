@@ -1,3 +1,7 @@
+## 0.1.4
+
+ - Update SDK constraint to >=3.9.0 <4.0.0, workspace resolution.
+
 ## 0.1.2
 
  - **FEAT**: support 3.6.0. ([4649e7a8](https://github.com/unger1984/trackit/commit/4649e7a85103afc8cdbf86a20755a7c48de716dd))

@@ -1,6 +1,6 @@
 name: trackit
 description: Very simple, lightweight and modular logging system. Trackit is a logger that is expandable with additional modules.
-version: 0.1.2
+version: 0.1.4
 homepage: https://github.com/unger1984/trackit
 
 funding:
@@ -22,11 +22,13 @@ platforms:
   windows:
 
 environment:
-  sdk: ">=3.0.0 <4.0.0"
+  sdk: ">=3.9.0 <4.0.0"
+
+resolution: workspace
 
 dependencies:
-  meta: ^1.15.0
+  meta: ^1.17.0
 
 dev_dependencies:
-  lints: ^5.0.0
-  test: ^1.25.8
+  lints: ^6.1.0
+  test: ^1.26.0

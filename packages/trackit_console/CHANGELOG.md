@@ -1,3 +1,7 @@
+## 0.3.3
+
+ - Update SDK constraint, trackit ^0.1.4.
+
 ## 0.3.1
 
  - **FEAT**: support 3.6.0. ([4649e7a8](https://github.com/unger1984/trackit/commit/4649e7a85103afc8cdbf86a20755a7c48de716dd))
